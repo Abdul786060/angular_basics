@@ -25,3 +25,6 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+ ##Impementation
+ In this project I implement Interpolation, learn function calling, how to get input field , do counter example, property binding, if-else conditions, for and nested for loop, switch case, style binding, how to install bootstrap and matrial UI in angular, How to pass data into child component and how to reuse component.
+
