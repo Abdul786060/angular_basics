@@ -1,1 +1,1 @@
-# angular_basics
+# In this project I implement Interpolation, learn function calling, how to get input field , do counter example, property binding, if-else conditions, for and nested for loop, switch case, style binding, how to install bootstrap and matrial UI in angular, How to pass data into child component and how to reuse component.
