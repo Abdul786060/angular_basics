@@ -1,0 +1,8 @@
+<h1 style="padding-left: 50px;">Todo List</h1>
+<input type="text" placeholder="Enter New Task" #task>
+<br><br>
+<button (click)="addTask(task.value)">Add new Task</button>
+<br><br>
+<ul *ngFor="let n of datastore">
+    <li>{{n.name}}  <button (click)="removeTask(n.id)">Remove Task</button></li>
+</ul>

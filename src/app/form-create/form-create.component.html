@@ -1,0 +1,23 @@
+<h1 style="text-align: left; padding-left: 20px;">User Information</h1>
+
+<form class="sty" #basicform="ngForm" (submit)="userRegister(basicform.value)">
+    <input type="text" ngModel placeholder="Enter your name" name="name" /><br><br>
+    <input type="email" ngModel placeholder="Enter your email" name="email" /><br><br>
+    <input type="password" ngModel placeholder="Enter your password" name="password" />
+    <br><br>
+    <button>Register</button>
+</form>
+
+<style>
+    .sty{
+        padding-left: 20px;
+    }
+</style>
+
+<hr>
+<h1 style="text-align: left; padding-left: 20px;">Display User Information</h1>
+<ul>
+    <li>{{userData.name}}</li>
+    <li>{{userData.email}}</li>
+    <li>{{userData.password}}</li>
+</ul>

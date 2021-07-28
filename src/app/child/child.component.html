@@ -1,0 +1,7 @@
+<p *ngIf="screendisplay">{{item}}</p>
+
+<br>
+<input style="margin-left: 10px;" type="text" #box /> <br><br>
+<button style="margin-left: 10px;" (click)="updateDataEvent.emit(box.value)">Update Data</button>
+
+
